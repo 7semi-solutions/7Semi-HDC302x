@@ -687,7 +687,7 @@ public:
      * - true  → Configuration applied successfully
      * - false → Invalid input or I2C communication failed
      */
-    bool HDC302x_7Semi::setMeasurementRate(HDC302x_ODR odr, HDC302x_PowerMode mode);
+    bool setMeasurementRate(HDC302x_ODR odr, HDC302x_PowerMode mode);
 
 private:
 
